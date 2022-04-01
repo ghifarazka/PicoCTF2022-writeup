@@ -1,0 +1,11 @@
+picoCTF{nc_73115_411_445e5629}
+
+- open pcap file with wireshark
+- know that it has conversation (TCP stream) and a file transfer somewhere
+- conv. hinted that there's a file called file.des3
+- the file transfer is between "listening" and "sent it"
+- the file is the one that started with "Salted__"
+- put the raw binary (starting from "Salted__") in a file called file.des3
+- run the decryption command
+- file.txt -> get flag
+

@@ -1,0 +1,6 @@
+picoCTF{p4ck37_5h4rk_d0565941}
+
+- can't tcpflow
+- use wireshark -> find flag
+- remove the spaces
+- get flag

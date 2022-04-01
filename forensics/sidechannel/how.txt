@@ -1,0 +1,18 @@
+picoCTF{t1m1ng_4tt4ck_8d0e5357}
+
+- make the pin_checker executable with chmod
+- try putting in pins
+- the more correct the pin, the longer it takes
+- use "time -p ./pin_checker" command and read the "user" part to know how long 
+the execution time is
+- now brute from 00000000, 10000000, etc until 90000000... pick the one that stands
+out (the longest one) in this case "4".
+- keep going until you get 8 digit
+- keep in mind it's asking for numbers because PIN means "Personal Identification 
+NUMBER"
+- the pin is 48390513
+- use the pin to access master server
+- get flag
+
+- NOTE: i wish i could've scripted this, but i'm still struggling on how to pass
+an argument to a prompt from a script.

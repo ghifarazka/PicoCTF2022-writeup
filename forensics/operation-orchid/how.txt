@@ -1,0 +1,33 @@
+picoCTF{h4un71ng_p457_c512004e}
+
+- open disk file > navigate to root folder > found flag.txt and flag.txt.enc
+- turned out that flag.txt is a misleading (?) recovering it reveals what looks 
+like a coordinate that leads to nowhere
+- flag.txt.enc is an encrypted version of the flag, with salt (reminded of 
+eavesdrop challenge)
+- i put the contents using this command: 
+icat -o 411648 disk.flag.img 1782 > file.txt
+- now what digest (encryption method) i can use to decrypt it?
+- do command: strings disk.flag.img | grep flag.txt
+- it reveals as follow:
+flag.txt
+flag.txt.enc
+touch flag.txt
+nano flag.txt 
+nano flag.txt 
+openssl aes256 -salt -in flag.txt -out flag.txt.enc -k unbreakablepassword1234567
+shred -u flag.txt
+flag.txt
+flag.txt
+flag.txt.enc
+flag.txt
+flag.txt.enc
+- this is the command used when encrypting the flag.
+- now just edit it a bit so that it decrypts:
+openssl aes256 -d -salt -in file.txt -out flag.txt -k unbreakablepassword1234567
+- get flag (in flag.txt)
+
+NOTE: grepping flag.txt is a VERY IMPORTANT thing to do in ctf, or if it's one of
+those encrypted flags try grepping openssl
+
+

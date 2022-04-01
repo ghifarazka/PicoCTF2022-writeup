@@ -1,0 +1,6 @@
+picoCTF{mm15_f7w!}
+
+- extract gzip
+- mmls disk.img
+- connect nc and answer accordingly
+- get flag

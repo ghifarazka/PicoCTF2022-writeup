@@ -1,0 +1,20 @@
+DOS Partition Table
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Primary Table (#0)
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  000:000   0000002048   0000206847   0000204800   Linux (0x83)
+003:  000:001   0000206848   0000360447   0000153600   Linux Swap / Solaris x86 (0x82)
+004:  000:002   0000360448   0000614399   0000253952   Linux (0x83)
+
+icat -R -o 360448 disk.flag.img 2082 --> failed to open (deleted file, i cant figure it out--
+not the flag anyways)
+
+List of commands used:
+open linux partition        : fls -o 360448 disk.flag.img
+open root                   : fls -o 360448 disk.flag.img 1995
+open my_folder              : fls -o 360448 disk.flag.img 3981
+read flag file              : icat -o 360448 disk.flag.img 2371
+
