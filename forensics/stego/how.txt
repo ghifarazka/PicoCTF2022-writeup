@@ -1,4 +1,0 @@
-picoCTF{7h3r3_15_n0_5p00n_1b8d71db}
-
-- use zsteg
-- get flag

@@ -1,6 +1,0 @@
-picoCTF{C4n_Y0u_S33_m3_fully} 
-
-- notice that when you open it on goole, it says .docx
-- open it with word or libreoffice
-- the "redaction" are shapes, move them, reveal the flag
-- get flag

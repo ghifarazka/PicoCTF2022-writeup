@@ -1,1 +1,0 @@
-picoCTF{h4un71ng_p457_c512004e}
