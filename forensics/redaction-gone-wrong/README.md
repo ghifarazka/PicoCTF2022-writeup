@@ -9,4 +9,4 @@ We were given a file ending with `.pdf`. Opening it in Google Chrome reveals tha
 Opening it with any office apps (for me it was LibreOffice Draw), reveals that the "redactions" were nothing but black rectangular shapes put over texts. 
 ![Opening the file in LibreOffice Draw](libredraw.png)
 
-flag: picoCTF{C4n_Y0u_S33_m3_fully}
+flag: `picoCTF{C4n_Y0u_S33_m3_fully}`
