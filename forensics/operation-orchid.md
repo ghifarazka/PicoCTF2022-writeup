@@ -40,6 +40,7 @@ flag.txt.enc
 Very nice. Now we just need to put the message in "flag.txt.enc" into a file called "file.txt" and then run the decryption command. Here are the commands I used.
 
 Putting the message to file: `icat -o 411648 disk.flag.img 1782 > file.txt`
+
 Decrypting the message: `openssl aes256 -d -salt -in file.txt -out flag.txt -k unbreakablepassword1234567`
 
 Using `cat` on "flag.txt", we get the flag.

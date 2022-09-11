@@ -1,0 +1,21 @@
+heT|   The flag is picoCTF{7R4N5P051N6_15_3XP3N51V_35C82A0E0}
+fl |
+g a|
+s i|
+icp|
+CTo|
+{7F|
+4NR|
+P05|
+1N5|
+_16|
+_35|
+P3X|
+51N|
+3_V|
+C85|
+A02|
+0}E
+
+heTfl g as iicpCTo{7F4NRP051N5_16_35P3X51N3_VC85A020}E
+The flag is picoCTF{7R4N5P051N6_15_3XP3N51V3_5C82A0E0}
